@@ -36,6 +36,8 @@
 #endif
 #ifdef HAVE_INTTYPES_H
 #include <inttypes.h>
+#else
+#include <stdint.h>
 #endif
 #include <string>
 #include <map>
